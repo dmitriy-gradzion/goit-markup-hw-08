@@ -1,0 +1,37 @@
+.about {
+    padding-bottom: 94px;
+  }
+  
+  .about-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .about-pic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-list-item {
+    position: relative;
+  }
+  
+  .about-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 370px;
+    min-height: 70px;
+    bottom: 0px;
+    background: rgba(47, 48, 58, 0.8);
+  }
