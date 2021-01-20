@@ -860,8 +860,11 @@ a {
   background-color: #2f303a;
 }
 
+.container .footer {
+  display: block;
+}
+
 .footer-address {
-  margin: auto;
   width: 100%;
   text-align: center;
   margin-bottom: 60px;
@@ -1013,5 +1016,11 @@ a {
   top: 50%;
   transform: translateY(-50%);
   fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .container .footer {
+    display: flex;
+  }
 }
 /*# sourceMappingURL=main.css.map */
