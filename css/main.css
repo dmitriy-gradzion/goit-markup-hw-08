@@ -701,8 +701,8 @@ a {
   justify-content: space-between;
   padding-top: 16px;
   padding-bottom: 24px;
-  padding-left: 122px;
-  padding-right: 122px;
+  max-width: 206px;
+  margin: auto;
 }
 
 .team-social-item {
@@ -736,8 +736,8 @@ a {
 }
 
 .team-pics {
-  width: 450px;
-  height: 460px;
+  width: 100%;
+  max-height: 460px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1199px) {
@@ -763,10 +763,6 @@ a {
     width: 354px;
     height: 374px;
   }
-  .social-list {
-    padding-left: 74px;
-    padding-right: 74px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -785,10 +781,6 @@ a {
   .team-pics {
     width: 270px;
     height: 260px;
-  }
-  .social-list {
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
