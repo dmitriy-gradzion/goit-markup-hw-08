@@ -14,12 +14,24 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="header-navigation">
-          <p class="logo" lang="en">
-            <a class="logo-link" href="./index.html">
-              <span class="content-logo">Web</span>Studio</a>
-          </p>
+      <div class="container">    
+
+        <p class="logo" lang="en">
+          <a class="logo-link" href="./index.html">
+            <span class="content-logo">Web</span>Studio</a>
+        </p>
+        
+        <div class="mobile-box">
+          <button type="button" class="mobile-btn" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg class="mobile-menu-icon">
+              <use class="icon-menu" href="./images/sprite.svg#icon-menu_24px"></use>
+              <use class="icon-cross" href="./images/sprite.svg#icon-close_24px"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav class="header-navigation"></nav>
           <ul class="navigation-list">
             <li class="navigation-list-item">
               <a class="navigation-list-link strip" href="./index.html">Студия</a>
@@ -31,35 +43,29 @@
               <a class="navigation-list-link" href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
+          </nav>
 
-        <address class="address">
-          <ul class="address-list">
-            <li class="header-mail-item">               
-              <a class="header-mail-link" href="mailto:info@devstudio.com">
-                <svg class="header-logo-mail">
-                <use href="./images/sprite.svg#icon-mail"></use>
-              </svg>
-              info@devstudio.com</a>
-            </li>
-            <li class="header-tel-item">              
-              <a class="header-tel-link" href="tel:+380961111111">
-                <svg class="header-logo-tell">
-                  <use href="./images/sprite.svg#icon-tell"></use>
-                </svg>
-                +38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-        <div class="mobile-box">
-          <button type="button" class="mobile-btn">
-            <svg class="mobile-menu-icon">
-              <use href="./images/sprite.svg#icon-menu_24px"></use>
-            </svg>
-          </button>
-        </div>        
-      </div>
-    </header>
+          <address class="address">
+            <ul class="address-list">
+              <li class="header-mail-item">
+                <a class="header-mail-link" href="mailto:info@devstudio.com">
+                  <svg class="header-logo-mail">
+                    <use href="./images/sprite.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com</a>
+              </li>
+              <li class="header-tel-item">
+                <a class="header-tel-link" href="tel:+380961111111">
+                  <svg class="header-logo-tell">
+                    <use href="./images/sprite.svg#icon-tell"></use>
+                  </svg>
+                  +38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>          
+    </header>   
 
     <main class="main">
       <!--HERO-->
@@ -365,7 +371,7 @@
                 <a class="footer-tel-link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
-          </address>          
+          </address>
         </div>
         
         <div class="footer-social-box">
@@ -464,17 +470,7 @@
           <button type="submit" class="modal-form-btn">Отправить</button>          
         </form>        
       </div>
-    </div>
-    <!-- <div class="qwerty is-open" data-menu>
-      <div class="mobile-menu">
-        <button type="button" class="close-btn" data-modal-close>
-          <svg class="icon-close-black" width="15" height="15">
-            <use href="./images/sprite.svg#icon-close" width="11" height="11"></use>
-          </svg>
-        </button>     
-      </div>    
-    </div> -->
-
+    </div>  
     <script src="./js/modal.js"></script>
     <script src="./js/mobile.js"></script>
   </body>
