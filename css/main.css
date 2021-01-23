@@ -890,8 +890,7 @@ a {
     flex-basis: calc(100% / 2 - 30px);
   }
   .team-pics {
-    width: 354px;
-    height: 374px;
+    max-width: 354px;
   }
 }
 
